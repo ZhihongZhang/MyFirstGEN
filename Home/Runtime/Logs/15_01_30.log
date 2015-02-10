@@ -1,0 +1,671 @@
+[ 2015-01-30T00:05:49+08:00 ] 0.0.0.0 /test2/index.php/Index/dologin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005502s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123456@qq.com' ) AND ( `password` = '123456' ) LIMIT 1   [ RunTime:0.000807s ]
+
+[ 2015-01-30T00:08:27+08:00 ] ERR: (ThinkException) 非法操作:adduser2
+[ 2015-01-30T00:09:05+08:00 ] 0.0.0.0 /test2/index.php/Index/adduser2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005566s ]
+SQL: INSERT INTO `tb_user` (`text`,`e-mail`,`password`,`number`,`text-area`) VALUES ('测试用户1','123@qq.com','123456','18037108299','呵呵\n恶化和') [ RunTime:0.073291s ]
+
+[ 2015-01-30T00:11:00+08:00 ] 0.0.0.0 /test2/index.php/Index/adduser2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005413s ]
+SQL: INSERT INTO `tb_user` (`text`,`e-mail`,`password`,`number`,`text-area`) VALUES ('测试用户2','12345@qq.com','123456','18037108299','dejj') [ RunTime:0.079061s ]
+
+[ 2015-01-30T00:23:12+08:00 ] 0.0.0.0 /test2/index.php/Index/dologin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006504s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123456@qq.com' ) AND ( `password` = '123456' ) LIMIT 1   [ RunTime:0.000640s ]
+
+[ 2015-01-30T00:23:30+08:00 ] 0.0.0.0 /test2/index.php/Index/edit_pass
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004380s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000701s ]
+
+[ 2015-01-30T00:23:45+08:00 ] 0.0.0.0 /test2/index.php/Index/edit_pass
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004400s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000727s ]
+SQL: UPDATE `tb_user` SET `password`='123456' WHERE ( `id` = 1 ) [ RunTime:0.081361s ]
+
+[ 2015-01-30T00:24:01+08:00 ] 0.0.0.0 /test2/index.php/Index/edit_pass
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004477s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000708s ]
+SQL: UPDATE `tb_user` SET `password`='1234567' WHERE ( `id` = 1 ) [ RunTime:0.052112s ]
+
+[ 2015-01-30T00:24:22+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006935s ]
+NOTIC: [8] Undefined index: email E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = null ) LIMIT 1   [ RunTime:0.000576s ]
+
+[ 2015-01-30T00:24:49+08:00 ] 0.0.0.0 /test2/index.php/Index/adduser2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004625s ]
+SQL: INSERT INTO `tb_user` (`e-mail`,`text`,`password`,`number`,`text-area`) VALUES ('123456@qq.com','测试用户3','18037108299','18037108299','123456/*') [ RunTime:0.074876s ]
+
+[ 2015-01-30T00:24:58+08:00 ] 0.0.0.0 /test2/index.php/Index/deluser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004293s ]
+SQL: DELETE FROM `tb_user` WHERE ( `id` = 8 ) [ RunTime:0.073859s ]
+
+[ 2015-01-30T00:25:17+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005155s ]
+NOTIC: [8] Undefined index: email E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = null ) LIMIT 1   [ RunTime:0.000837s ]
+
+[ 2015-01-30T00:26:09+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004396s ]
+NOTIC: [8] Undefined index: email E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = null ) LIMIT 1   [ RunTime:0.000712s ]
+
+[ 2015-01-30T00:26:14+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005187s ]
+NOTIC: [8] Undefined index: email E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = null ) LIMIT 1   [ RunTime:0.000912s ]
+
+[ 2015-01-30T00:26:17+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004865s ]
+NOTIC: [8] Undefined index: email E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 184 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = null ) LIMIT 1   [ RunTime:0.000802s ]
+
+[ 2015-01-30T00:26:58+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005199s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123456@qq.com' ) LIMIT 1   [ RunTime:0.000755s ]
+
+[ 2015-01-30T00:29:51+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 242 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004972s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000673s ]
+
+[ 2015-01-30T00:30:03+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 242 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005055s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000784s ]
+
+[ 2015-01-30T01:04:15+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005496s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000915s ]
+
+[ 2015-01-30T01:04:39+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004768s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000731s ]
+
+[ 2015-01-30T01:04:51+08:00 ] 0.0.0.0 /test2/index.php/Index/doedit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004481s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123456@qq.com' ) LIMIT 1   [ RunTime:0.000888s ]
+
+[ 2015-01-30T01:05:08+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005305s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123456@qq.com' ) LIMIT 1   [ RunTime:0.000880s ]
+
+[ 2015-01-30T01:07:29+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004901s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000831s ]
+
+[ 2015-01-30T01:16:36+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005193s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000722s ]
+
+[ 2015-01-30T01:17:10+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005947s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000774s ]
+
+[ 2015-01-30T01:17:28+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004260s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123456@qq.com' ) LIMIT 1   [ RunTime:0.000549s ]
+
+[ 2015-01-30T01:19:23+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004726s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000851s ]
+
+[ 2015-01-30T01:19:32+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005114s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123456@qq.com' ) LIMIT 1   [ RunTime:0.000818s ]
+
+[ 2015-01-30T01:22:19+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005536s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000998s ]
+
+[ 2015-01-30T01:22:25+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004731s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000526s ]
+
+[ 2015-01-30T01:45:28+08:00 ] 0.0.0.0 /test2/index.php/Index/show?name=12
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004329s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' )  [ RunTime:0.041774s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [8] Undefined index: line E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 39 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' ) LIMIT 0,2   [ RunTime:0.000752s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021261s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001300s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001323s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005572s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2015-01-30T01:45:31+08:00 ] 0.0.0.0 /test2/index.php/Index/show?name=12
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004223s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' )  [ RunTime:0.000731s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [8] Undefined index: line E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 39 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' ) LIMIT 0,2   [ RunTime:0.000743s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001561s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018409s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001287s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000956s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005363s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2015-01-30T01:45:33+08:00 ] 0.0.0.0 /test2/index.php/Index/show?name=12
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004545s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000753s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' )  [ RunTime:0.000784s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [8] Undefined index: line E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 39 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' ) LIMIT 0,2   [ RunTime:0.000747s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001586s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001241s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001292s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001026s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005772s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2015-01-30T01:45:33+08:00 ] 0.0.0.0 /test2/index.php/Index/show?name=12
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004374s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000707s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' )  [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [8] Undefined index: line E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 39 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' ) LIMIT 0,2   [ RunTime:0.000745s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001657s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001920s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021463s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001340s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005964s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2015-01-30T01:45:34+08:00 ] 0.0.0.0 /test2/index.php/Index/show?name=12
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004697s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000704s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' )  [ RunTime:0.000729s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [8] Undefined index: line E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 39 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' ) LIMIT 0,2   [ RunTime:0.000745s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001427s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001626s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021035s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001284s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001188s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005715s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2015-01-30T01:45:34+08:00 ] 0.0.0.0 /test2/index.php/Index/show?name=12
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004761s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000723s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' )  [ RunTime:0.000731s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [8] Undefined index: line E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 39 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' ) LIMIT 0,2   [ RunTime:0.000746s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001476s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001682s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017998s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001233s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000925s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005232s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2015-01-30T01:45:35+08:00 ] 0.0.0.0 /test2/index.php/Index/show?name=12
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004332s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000702s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' )  [ RunTime:0.000734s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 35 行.
+NOTIC: [8] Undefined index: line E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 39 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `text` LIKE '%12%' ) LIMIT 0,2   [ RunTime:0.000757s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001411s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001608s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020405s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001267s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001254s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001019s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005815s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2015-01-30T01:47:46+08:00 ] ERR: (ThinkException) 无法加载模块:show
+[ 2015-01-30T01:48:42+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006262s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123@qq.com' ) LIMIT 1   [ RunTime:0.001749s ]
+
+[ 2015-01-30T01:48:49+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005266s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '12@qq.com' ) LIMIT 1   [ RunTime:0.000781s ]
+
+[ 2015-01-30T01:49:08+08:00 ] 0.0.0.0 /test2/index.php/Index/adduser2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004968s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '12@qq.com' ) LIMIT 1   [ RunTime:0.000726s ]
+SQL: INSERT INTO `tb_user` (`e-mail`,`text`,`password`,`number`,`text-area`) VALUES ('12@qq.com','测试用户3','123456','18037108299','呵呵呵呵呵呵！！！') [ RunTime:0.070684s ]
+
+[ 2015-01-30T01:50:42+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003084s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005251s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000574s ]
+
+[ 2015-01-30T01:50:46+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004691s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000449s ]
+
+[ 2015-01-30T01:50:53+08:00 ] 0.0.0.0 /test2/index.php/Index/doedit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002660s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005768s ]
+NOTIC: [8] Undefined index: email E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 153 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = null ) LIMIT 1   [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: name E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 158 行.
+NOTIC: [8] Undefined index: tel E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: text E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 160 行.
+SQL: UPDATE `tb_user` SET `e-mail`=null,`text`=null,`number`=null,`text-area`=null WHERE ( `id` = 4 ) [ RunTime:0.168554s ]
+
+[ 2015-01-30T01:51:09+08:00 ] 0.0.0.0 /test2/index.php/Index/seluser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004991s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005602s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000830s ]
+
+[ 2015-01-30T01:51:13+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005863s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000797s ]
+
+[ 2015-01-30T01:53:18+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005611s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000710s ]
+
+[ 2015-01-30T01:53:29+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006168s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '123@qq.com' ) LIMIT 1   [ RunTime:0.000805s ]
+
+[ 2015-01-30T01:53:35+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005082s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000872s ]
+
+[ 2015-01-30T01:54:48+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005593s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000765s ]
+
+[ 2015-01-30T01:54:58+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005114s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000827s ]
+
+[ 2015-01-30T01:55:26+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005457s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000733s ]
+
+[ 2015-01-30T01:55:36+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004954s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000565s ]
+
+[ 2015-01-30T01:56:05+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004688s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000717s ]
+
+[ 2015-01-30T01:56:16+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004745s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000553s ]
+
+[ 2015-01-30T01:59:21+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005002s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000502s ]
+
+[ 2015-01-30T01:59:33+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 269 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005036s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000766s ]
+
+[ 2015-01-30T02:03:24+08:00 ] 0.0.0.0 /test2/index.php/Index/edituser
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.005804s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000730s ]
+
+[ 2015-01-30T02:03:35+08:00 ] 0.0.0.0 /test2/index.php/Index/testemail
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006658s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000625s ]
+
+[ 2015-01-30T02:03:43+08:00 ] 0.0.0.0 /test2/index.php/Index/doedit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\test2\ThinkPHP\Common\functions.php 第 552 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\test2\Home\Lib\Action\IndexAction.class.php 第 267 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.004667s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `e-mail` = '1234@qq.com' ) LIMIT 1   [ RunTime:0.000791s ]
+SQL: UPDATE `tb_user` SET `e-mail`='1234@qq.com',`text`='123456',`number`='13063977852',`text-area`='cascvv' WHERE ( `id` = 4 ) [ RunTime:0.081058s ]
+
